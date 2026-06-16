@@ -9,38 +9,45 @@ export default function App() {
   const [bucketIdeas, setBucketIdeas] = useState({ automation: [], processFix: [], aiUseCase: [] });
   const [scoring, setScoring] = useState({ a: '', b: '', c: '' });
   const [bucketResults, setBucketResults] = useState(null);
-  const colors = {
-    primaryBlue: '#0057B8',
-    primaryPurple: '#6B5B95',
-    darkNavy: '#0A1628',
-    white: '#FFFFFF',
-    lightGray: '#F8FAFC',
-    textDark: '#1F2937',
-    successGreen: '#22C55E',
-    warningOrange: '#F97316',
-    infoBlue: '#3B82F6',
-    mediumYellow: '#EAB308',
-      'Scheduled tasks',
-      'Report generation',
-      'Data movement',
-      'Manual copy-paste work'
-    ],
-    "AI Use Case": [
-      'Reading emails',
-      'Reading documents',
-      'Summarization',
-      'Pattern detection',
-      'Classification',
-      'Predictions',
-      'Judgement required'
-    ],
-    "Process Fix": [
-      'Ownership issues',
-      'Duplicate work',
-      'Approval bottlenecks',
-      'Broken workflows'
-    ]
-  };
+const colors = {
+  primaryBlue: '#0057B8',
+  primaryPurple: '#6B5B95',
+  darkNavy: '#0A1628',
+  white: '#FFFFFF',
+  lightGray: '#F8FAFC',
+  textDark: '#1F2937',
+  successGreen: '#22C55E',
+  warningOrange: '#F97316',
+  infoBlue: '#3B82F6',
+  mediumYellow: '#EAB308',
+  highRed: '#EF4444',
+  lowGray: '#64748B'
+};
+
+// Category definitions
+const categoryOptions = {
+  Automation: [
+    'Scheduled tasks',
+    'Report generation',
+    'Data movement',
+    'Manual copy-paste work'
+  ],
+  "AI Use Case": [
+    'Reading emails',
+    'Reading documents',
+    'Summarization',
+    'Pattern detection',
+    'Classification',
+    'Predictions',
+    'Judgement required'
+  ],
+  "Process Fix": [
+    'Ownership issues',
+    'Duplicate work',
+    'Approval bottlenecks',
+    'Broken workflows'
+  ]
+};
 
   // Render reasons for the selected category
   const renderCategoryReason = () => {
@@ -291,16 +298,16 @@ export default function App() {
 
             <button 
               onClick={handleStart}
-              disabled={!name.trim() || !department.trim()}
+              disabled={!name.trim() || !account.trim()}
               style={{
-                backgroundColor: (name.trim() && department.trim()) ? colors.primaryPurple : '#A0AEC0',
+                backgroundColor: (name.trim() && account.trim()) ? colors.primaryPurple : '#A0AEC0',
                 color: colors.white,
                 padding: '14px 24px',
                 borderRadius: '6px',
                 border: 'none',
                 fontSize: '16px',
                 fontWeight: 'bold',
-                cursor: (name.trim() && department.trim()) ? 'pointer' : 'not-allowed',
+                cursor: (name.trim() && account.trim()) ? 'pointer' : 'not-allowed',
                 width: '100%',
                 transition: 'background-color 0.3s'
               }}
