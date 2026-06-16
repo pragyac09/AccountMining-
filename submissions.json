@@ -1,0 +1,107 @@
+[
+  {
+    "name": "pragya",
+    "department": "IT",
+    "A": 40,
+    "B": 4,
+    "C": 20,
+    "score": 32,
+    "timestamp": "2026-06-09T06:24:36.188Z"
+  },
+  {
+    "name": "pc",
+    "department": "IT",
+    "A": 60,
+    "B": 5,
+    "C": 100,
+    "score": 300,
+    "timestamp": "2026-06-09T06:32:26.567Z"
+  },
+  {
+    "name": "pc",
+    "department": "it",
+    "idea_summary": "Unable to classify – using placeholder summary.",
+    "category": "AI Use Case",
+    "A": 40,
+    "B": 5,
+    "C": 100,
+    "score": 200,
+    "timestamp": "2026-06-10T03:01:35.481Z"
+  },
+  {
+    "name": "pc",
+    "department": "it",
+    "idea_summary": "",
+    "category": "AI Use Case",
+    "A": 40,
+    "B": 5,
+    "C": 100,
+    "score": 200,
+    "timestamp": "2026-06-10T03:05:48.091Z"
+  },
+  {
+    "name": "pc ",
+    "department": "it",
+    "idea_summary": "",
+    "category": "Automation",
+    "A": 60,
+    "B": 5,
+    "C": 100,
+    "score": 300,
+    "timestamp": "2026-06-10T03:07:59.231Z"
+  },
+  {
+    "name": "pragya ",
+    "department": "it",
+    "idea_summary": "",
+    "category": "AI Use Case",
+    "A": 40,
+    "B": 5,
+    "C": 100,
+    "score": 200,
+    "timestamp": "2026-06-10T04:41:40.257Z"
+  },
+  {
+    "name": "pragya",
+    "department": "IT",
+    "idea_summary": "",
+    "category": "Automation",
+    "A": 60,
+    "B": 5,
+    "C": 100,
+    "score": 300,
+    "timestamp": "2026-06-10T05:04:43.393Z"
+  },
+  {
+    "name": "pragya",
+    "department": "IT",
+    "idea_summary": "",
+    "category": "Automation",
+    "A": 60,
+    "B": 5,
+    "C": 100,
+    "score": 300,
+    "timestamp": "2026-06-10T05:15:22.028Z"
+  },
+  {
+    "name": "pc",
+    "department": "it",
+    "idea_summary": "",
+    "category": "AI Use Case",
+    "A": 60,
+    "B": 3,
+    "C": 98,
+    "score": 176,
+    "answers": {
+      "q1": "Manual data entry\nCopying information between systems\nPreparing repetitive reports\nUpdating spreadsheets every day\nChasing people for approvals",
+      "q2": "Weekly report generation\nResponding to repetitive emails",
+      "q3": "Missing or incomplete data\nDelays in approvals\nDuplicate work across teams\nCommunication gaps between departments\nFrequent data entry errors\nRepeated customer queries\nLack of process standardization\nVersion control issues in documents"
+    },
+    "answerCounts": {
+      "x": 5,
+      "y": 2,
+      "z": 8
+    },
+    "timestamp": "2026-06-10T18:20:28.593Z"
+  }
+]
